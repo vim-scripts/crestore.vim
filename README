@@ -1,0 +1,10 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1592
+
+The script "crestore.vim" provide the command "Crestore". Before using a quickfix command the script
+will save the current file and cursor position. Using "Crestore" will restore the file (and cursor position) used before.
+ 
+Usage:
+
+1. Run a quickfix command: vimgrep, make etc.
+2. Jump around in the list, fix errors....
+3. Type "Crestore" to go back to the file you used before. Quickfix window will be closed. 
